@@ -1,0 +1,53 @@
+/* specify here the look of things */
+
+body {
+ background-color: #94a3da;
+}
+
+.localCanvas{
+  width: 50%;
+  float: left;
+  clip-path: polygon(49% 100%, 54% 47%, 58% 47%, 58% 42%, 54% 24%, 58% 9%, 63% 2%, 75% 2%, 79% 9%, 83% 24%, 78% 41%, 78% 47%, 86% 47%, 93% 100%)
+
+}
+
+.partnerCanvas{
+  width: 50%;
+  float: left;
+  opacity: 1;
+  clip-path: polygon(5% 100%, 8% 47%, 16% 47%, 16% 42%, 11% 24%, 12% 9%, 17% 2%, 29% 2%, 33% 9%, 36% 24%, 32% 41%, 32% 47%, 40% 47%, 50% 100%)
+}
+
+.achtergrond{
+  padding-top: 150px;
+  margin-bottom: 100px;
+  background-image: url(airplane.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-position: bottom;
+
+  height: 768px;
+  width: 1366px;
+}
+.wall{
+  height: 700px;
+  padding-top: 237px;
+  padding-bottom: 0px;
+
+}
+
+.bottomBar{
+  text-align: center;
+}
+
+footer{
+  height: 50px;
+}
+
+
+.controls {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
