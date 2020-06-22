@@ -35,10 +35,19 @@ function changeVideo() {
   }
 }
 
+
+
 function changeOpacity() {
   var streams = document.getElementsByClassName('partnerCanvas');
   for(i = 0; i < streams.length; i++) {
     streams[i].style.filter = `opacity(${videoOpacity})`;
     console.log("Changed Opacity");
+  }
+}
+
+function onLoad(){
+  filmpje.play();
+  if (getAudioContext().state !== 'running') {
+    getAudioContext().resume();
   }
 }
