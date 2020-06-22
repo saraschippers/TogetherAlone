@@ -1,6 +1,6 @@
 var videoOpacity = 1;
 
-let filmpje;
+// let filmpje;
 let mic;
 let vol;
 var opacityfilm = 1;
@@ -46,7 +46,7 @@ function changeOpacity() {
 }
 
 function onload(){
-  filmpje.play();
+//   filmpje.play();
   if (getAudioContext().state !== 'running') {
     getAudioContext().resume();
   }
