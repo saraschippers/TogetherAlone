@@ -1,6 +1,6 @@
 var videoOpacity = 1;
 
-// let filmpje;
+let filmpje;
 let mic;
 let vol;
 var opacityfilm = 1;
@@ -35,8 +35,6 @@ function changeVideo() {
   }
 }
 
-
-
 function changeOpacity() {
   var streams = document.getElementsByClassName('partnerCanvas');
   for(i = 0; i < streams.length; i++) {
@@ -45,8 +43,8 @@ function changeOpacity() {
   }
 }
 
-function onload(){
-//   filmpje.play();
+function mouseClicked(){
+  filmpje.play();
   if (getAudioContext().state !== 'running') {
     getAudioContext().resume();
   }
