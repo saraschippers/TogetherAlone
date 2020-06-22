@@ -47,9 +47,9 @@ function changeVideo() {
   }
 }
 
-// function mouseClicked(){
-//   filmpje.play();
-//   if (getAudioContext().state !== 'running') {
-//     getAudioContext().resume();
-//   }
-//}
+function onLoad(){
+  filmpje.play();
+  if (getAudioContext().state !== 'running') {
+    getAudioContext().resume();
+  }
+}
