@@ -45,7 +45,7 @@ function changeOpacity() {
   }
 }
 
-function onLoad(){
+function onload(){
   filmpje.play();
   if (getAudioContext().state !== 'running') {
     getAudioContext().resume();
